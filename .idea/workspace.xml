@@ -7,18 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d0d2b50-0e9f-4ecb-b6bb-91d852551d79" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/shiro/realm/ShiroRealm.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/shiro/service/SystemUserService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/shiro/service/impl/SystemUserServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/bootstrap/css/bootstrap-theme.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/bootstrap/css/bootstrap-theme.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/bootstrap/css/bootstrap-theme.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/bootstrap/css/bootstrap-theme.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/bootstrap/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/bootstrap/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/bootstrap/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/bootstrap/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/jquery/jquery-3.3.1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/jquery/jquery-3.3.1.min.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" />
-      <change beforePath="$PROJECT_DIR$/target/springshiro.war" afterPath="$PROJECT_DIR$/target/springshiro.war" />
-      <change beforePath="$PROJECT_DIR$/target/springshiro/WEB-INF/classes/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/springshiro/WEB-INF/classes/spring/spring-mvc.xml" />
-      <change beforePath="$PROJECT_DIR$/target/springshiro/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/springshiro/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,8 +94,8 @@
       <file leaf-file-name="spring-shiro.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="-57">
+              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -201,9 +207,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="151" />
-    <option name="y" value="40" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="109" />
+    <option name="y" value="-12" />
     <option name="width" value="1400" />
     <option name="height" value="860" />
   </component>
@@ -234,6 +240,17 @@
               <item name="springshiro" type="b2602c69:ProjectViewProjectNode" />
               <item name="springshiro" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springshiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springshiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springshiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springshiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -251,6 +268,10 @@
     <property name="last_opened_file_path" value="D:/project/Test" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\example\springshiro\src\main\webapp\statics\jquery" />
+      <recent name="D:\example\springshiro\src\main\webapp\statics" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\example\springshiro\src\main\resources\mapper" />
       <recent name="D:\example\springshiro\src\main\java\com\example\shiro\dao" />
@@ -565,11 +586,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525825645221</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add config of shiro">
+      <created>1525835792930</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1525835792930</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15600000" />
+    <option name="totallyTimeSpent" value="16760000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -615,7 +643,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&#10;commit by lin" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;commit by lin" />
+    <MESSAGE value="add config of shiro" />
+    <option name="LAST_COMMIT_MESSAGE" value="add config of shiro" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -755,10 +784,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/bootstrap/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/bootstrap/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/jquery/jquery-3.3.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="-57">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding />
         </state>
       </provider>
