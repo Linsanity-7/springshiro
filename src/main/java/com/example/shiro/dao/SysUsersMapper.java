@@ -27,4 +27,6 @@ public interface SysUsersMapper {
     int updateByPrimaryKeySelective(SysUsers record);
 
     int updateByPrimaryKey(SysUsers record);
+
+    SysUsers findObjectByUsername(String username);
 }

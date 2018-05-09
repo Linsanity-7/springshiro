@@ -15,7 +15,7 @@ public class SysUsers {
 
     private String mobile;
 
-    private Byte valid;
+    private Integer valid;
 
     private Date createdtime;
 
@@ -73,11 +73,11 @@ public class SysUsers {
         this.mobile = mobile == null ? null : mobile.trim();
     }
 
-    public Byte getValid() {
+    public Integer getValid() {
         return valid;
     }
 
-    public void setValid(Byte valid) {
+    public void setValid(Integer valid) {
         this.valid = valid;
     }
 
