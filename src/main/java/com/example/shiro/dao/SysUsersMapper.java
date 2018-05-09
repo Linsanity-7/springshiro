@@ -12,7 +12,7 @@ public interface SysUsersMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(SysUsers record);
+    int insert(SysUsers user);
 
     int insertSelective(SysUsers record);
 

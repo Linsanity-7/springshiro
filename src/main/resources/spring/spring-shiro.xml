@@ -14,12 +14,14 @@
         <!-- 具体配置需要拦截哪些 URL, 以及访问对应的 URL 时使用 Shiro 的什么 Filter 进行拦截.  -->
         <property name="filterChainDefinitions">
             <value>
-                /index.html=anon
-                /jsp/success.jsp=anon
-                /jsp/fail.jsp=anon
-                /jsp/user.jsp = roles[user]
-                /jsp/admin.jsp = roles[admin]
-                /logout = logout
+                <!-- 对静态资源设置允许匿名访问 -->
+                /statics/** = anon
+                <!-- 可匿名访问路径，例如：验证码、登录连接、退出连接等 -->
+                /login.do = anon
+                <!-- 退出 -->
+                /logout.do = logout  <!-- 会调用Subject的logout方法,此方法会将session清空 -->
+                <!-- 剩余其他路径，必须认证通过才可以访问 -->
+                /** = authc
             </value>
         </property>
     </bean>
@@ -29,7 +31,17 @@
     <bean id="userService" class="com.example.shiro.service.impl.SystemUserServiceImpl" />
     <!-- 配置 Shiro 的 SecurityManager Bean. -->
     <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="realm" ref="myRealm"></property>
     </bean>
     <!-- 配置 Bean 后置处理器: 会自动的调用和 Spring 整合后各个组件的生命周期方法. -->
     <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
+    <bean id="shiroUserRealm" class="com.example.shiro.realm.ShiroRealm">
+        <!-- 配置凭证算法匹配器 -->
+        <property name="credentialsMatcher">
+            <bean class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
+                <property name="hashAlgorithmName" value="MD5"/>
+                <!-- <property name="hashIterations" value="1024"/> -->
+            </bean>
+        </property>
+    </bean>
 </beans>

@@ -3,21 +3,20 @@ package com.example.shiro.realm;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
-import org.apache.shiro.realm.Realm;
+import org.apache.shiro.authz.AuthorizationInfo;
+import org.apache.shiro.realm.AuthorizingRealm;
+import org.apache.shiro.subject.PrincipalCollection;
 
-public class ShiroRealm implements Realm{
+
+public class ShiroRealm extends AuthorizingRealm{
+
     @Override
-    public String getName() {
+    protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
         return null;
     }
 
     @Override
-    public boolean supports(AuthenticationToken authenticationToken) {
-        return false;
-    }
-
-    @Override
-    public AuthenticationInfo getAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
+    protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
         return null;
     }
 }
