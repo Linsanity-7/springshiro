@@ -14,7 +14,7 @@
         <!-- 具体配置需要拦截哪些 URL, 以及访问对应的 URL 时使用 Shiro 的什么 Filter 进行拦截.  -->
         <property name="filterChainDefinitions">
             <value>
-                /index.jsp=anon
+                /index.html=anon
                 /jsp/success.jsp=anon
                 /jsp/fail.jsp=anon
                 /jsp/user.jsp = roles[user]
