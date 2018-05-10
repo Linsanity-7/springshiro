@@ -33,4 +33,13 @@ public class SystemUserServiceImpl implements SystemUserService {
         int i = userDao.insert(user);
         if(i==-1)throw new ServiceException("保存用户信息失败");
     }
+
+    @Override
+    public SysUsers findObjectByName(String username) {
+        SysUsers user=userDao.findObjectByUsername(username);
+        if (user==null){
+            throw new ServiceException("该用户名不存在！");
+        }
+        return user;
+    }
 }

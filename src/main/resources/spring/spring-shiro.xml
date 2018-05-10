@@ -6,14 +6,15 @@
     <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
         <!-- 装配 securityManager -->
         <property name="securityManager" ref="securityManager"/>
-        <!-- 配置登陆页面 -->
-        <property name="loginUrl" value="/index.jsp"/>
-        <!-- 登陆成功后的页面 -->
-        <property name="successUrl" value="/jsp/success.jsp"/>
-        <property name="unauthorizedUrl" value="/jsp/unauthorized.jsp"/>
+        <!--&lt;!&ndash; 配置登陆页面 &ndash;&gt;-->
+        <property name="loginUrl" value="/index.html"/>
+        <!--&lt;!&ndash; 登陆成功后的页面 &ndash;&gt;-->
+        <!--<property name="successUrl" value="/jsp/success.jsp"/>-->
+        <!--<property name="unauthorizedUrl" value="/jsp/unauthorized.jsp"/>-->
         <!-- 具体配置需要拦截哪些 URL, 以及访问对应的 URL 时使用 Shiro 的什么 Filter 进行拦截.  -->
         <property name="filterChainDefinitions">
             <value>
+                /**.html=anon
                 <!-- 对静态资源设置允许匿名访问 -->
                 /statics/** = anon
                 <!-- 可匿名访问路径，例如：验证码、登录连接、退出连接等 -->
@@ -28,7 +29,7 @@
 
     <!-- 配置进行授权和认证的 Realm -->
     <bean id="myRealm" class="com.example.shiro.realm.ShiroRealm"></bean>
-    <bean id="userService" class="com.example.shiro.service.impl.SystemUserServiceImpl" />
+    <bean id="shiroRealmUserService" class="com.example.shiro.realm.service.impl.ShiroRealmUserServiceImpl" />
     <!-- 配置 Shiro 的 SecurityManager Bean. -->
     <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
         <property name="realm" ref="myRealm"></property>
