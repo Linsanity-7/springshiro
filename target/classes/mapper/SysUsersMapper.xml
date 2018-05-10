@@ -303,4 +303,19 @@
       modifiedUser = #{modifieduser,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
+  <select id="findObjectByUsername" resultType="com.example.shiro.entities.SysUsers" parameterType="java.lang.String">
+    SELECT
+        id,
+        username,
+        password,
+        salt,
+        email,
+        mobile
+    FROM
+        sys_users
+    WHERE
+        valid = 1
+    AND
+        username = #{username}
+  </select>
 </mapper>
