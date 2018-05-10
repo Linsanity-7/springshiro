@@ -12,7 +12,7 @@ public interface SysUsersMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(SysUsers record);
+    int insert(SysUsers user);
 
     int insertSelective(SysUsers record);
 
@@ -27,4 +27,6 @@ public interface SysUsersMapper {
     int updateByPrimaryKeySelective(SysUsers record);
 
     int updateByPrimaryKey(SysUsers record);
+
+    SysUsers findObjectByUsername(String username);
 }
