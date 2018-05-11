@@ -7,20 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d0d2b50-0e9f-4ecb-b6bb-91d852551d79" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/shiro/controller/loginController.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shiro/realm/service/ShiroRealmUserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/shiro/realm/service/ShiroRealmUserService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shiro/realm/service/impl/ShiroRealmUserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/shiro/realm/service/impl/ShiroRealmUserServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shiro/service/SystemUserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/shiro/service/SystemUserService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shiro/service/impl/SystemUserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/shiro/service/impl/SystemUserServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shiro/dao/SysUsersMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/example/shiro/dao/SysUsersMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shiro/entities/SysUsers.class" afterPath="$PROJECT_DIR$/target/classes/com/example/shiro/entities/SysUsers.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/SysUsersMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/SysUsersMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/springshiro.war" afterPath="$PROJECT_DIR$/target/springshiro.war" />
-      <change beforePath="$PROJECT_DIR$/target/springshiro/WEB-INF/classes/com/example/shiro/dao/SysUsersMapper.class" afterPath="$PROJECT_DIR$/target/springshiro/WEB-INF/classes/com/example/shiro/dao/SysUsersMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/springshiro/WEB-INF/classes/com/example/shiro/entities/SysUsers.class" afterPath="$PROJECT_DIR$/target/springshiro/WEB-INF/classes/com/example/shiro/entities/SysUsers.class" />
-      <change beforePath="$PROJECT_DIR$/target/springshiro/WEB-INF/classes/mapper/SysUsersMapper.xml" afterPath="$PROJECT_DIR$/target/springshiro/WEB-INF/classes/mapper/SysUsersMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shiro/controller/loginController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -248,8 +235,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="122" />
-    <option name="y" value="37" />
+    <option name="x" value="112" />
+    <option name="y" value="22" />
     <option name="width" value="1400" />
     <option name="height" value="860" />
   </component>
@@ -861,7 +848,7 @@
       <updated>1525744513091</updated>
       <workItem from="1525744516839" duration="11019000" />
       <workItem from="1525869212451" duration="5745000" />
-      <workItem from="1525914244640" duration="8249000" />
+      <workItem from="1525914244640" duration="9711000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;commit by lin">
       <created>1525825645221</created>
@@ -912,7 +899,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525914281740</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Merge branch 'master' of https://github.com/Linsanity-7/springshiro&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1525937680968</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1525937680968</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -948,10 +942,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37010000" />
+    <option name="totallyTimeSpent" value="38472000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="122" y="37" width="1400" height="860" extended-state="0" />
+    <frame x="112" y="22" width="1400" height="860" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1409,7 +1403,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shiro/controller/loginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
