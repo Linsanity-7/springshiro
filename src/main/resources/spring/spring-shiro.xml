@@ -7,7 +7,7 @@
         <!-- 装配 securityManager -->
         <property name="securityManager" ref="securityManager"/>
         <!--&lt;!&ndash; 配置登陆页面 &ndash;&gt;-->
-        <property name="loginUrl" value="/index.html"/>
+        <property name="loginUrl" value="index.html"/>
         <!--&lt;!&ndash; 登陆成功后的页面 &ndash;&gt;-->
         <!--<property name="successUrl" value="/jsp/success.jsp"/>-->
         <!--<property name="unauthorizedUrl" value="/jsp/unauthorized.jsp"/>-->
